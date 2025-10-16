@@ -1,0 +1,16 @@
+{
+  "openai": {
+    "api_key": "yourkey",
+    "model": "gpt-5",
+    "embedding_model": "text-embedding-3-small",
+    "temperature": 0
+  },
+  "rag": {
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "similarity_search_k": 3
+  },
+  "data": {
+    "knowledge_file": "knowledge.md"
+  }
+}
